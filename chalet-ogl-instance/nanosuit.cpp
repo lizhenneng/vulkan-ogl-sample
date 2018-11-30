@@ -278,7 +278,7 @@ modelMatrices = new glm::mat4[amount];
             //glBindTexture(GL_TEXTURE_2D, ourModel.textures_loaded[i].id);
             glBindTexture(GL_TEXTURE_2D, ourModel.meshes[i].textures[0].id);
             glBindVertexArray(ourModel.meshes[i].VAO);
-            glDrawElementsInstanced(GL_TRIANGLES, ourModel.meshes[i].vertices.size(), GL_UNSIGNED_INT, 0, amount);
+            glDrawElementsInstanced(GL_TRIANGLES, ourModel.meshes[i].vertices.size(), GL_UNSIGNED_INT, 0, 1/*amount*/);
             glBindVertexArray(0);
 	    glBindTexture(GL_TEXTURE_2D, 0);
 	}
