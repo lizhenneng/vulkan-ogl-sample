@@ -1,0 +1,9 @@
+[BASIC]
+#显示模型实际名称
+ModelName=mg-27
+#模型分类
+ModelType=攻击机/空中作战装备/航空航天/武器装备
+#模型特殊或者通用的特效文件路径
+SpeEffPath=../../../通用特效列表.mec3    ../../特效列表.mec3
+#模型动画路径
+CartoonPath=mg-27.mcc3

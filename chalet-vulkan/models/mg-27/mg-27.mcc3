@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!-- MMS-Platform - Model 3D Cartoon Configuration -->
+<!-- 北京中软信息系统工程有限公司 -->
+<ModelProperty3D>
+	<Model name="DHWX_D">
+		<PlayCartoon>
+			<!--PC n="Cartoon_1" r="导航卫星太阳能电池板展开动画" fb="0" fe="120" pt="单次"/--> <!-- n:Name动画名称 r:Remark动画描述 fb:FrameBegin fe:FrameEnd pt:PaTtern 单次 循环 倒放 -->
+		</PlayCartoon>
+	</Model>
+</ModelProperty3D>
+			
